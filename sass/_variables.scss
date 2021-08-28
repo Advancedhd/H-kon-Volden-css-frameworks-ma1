@@ -1,0 +1,16 @@
+$colours: (
+  white: #ffffff,
+  darkwhite: #f4f3ee,
+  darkergrey: #6a6a6a,
+  darkgrey: #8d8d8d,
+  lightgrey: #e2e2e2,
+  ligthergrey: #e5e5e5,
+  pink: #c32c72,
+  darkbrown: #463f3a,
+  black: #262626,
+  lightblack: #333333,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

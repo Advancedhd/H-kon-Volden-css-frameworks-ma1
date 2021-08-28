@@ -1,0 +1,114 @@
+body {
+  background: #e5e5e5;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+nav {
+  background: #f4f3ee;
+  font-weight: bold;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.whitebg div {
+  color: #8d8d8d !important;
+}
+
+.active {
+  color: #c32c72 !important;
+}
+
+.notactive {
+  color: #333333 !important;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  color: #262626 !important;
+}
+
+h1 {
+  margin-top: 120px;
+  font-size: 30px;
+  color: #463f3a !important;
+}
+
+footer {
+  display: block !important;
+  background: #ffffff;
+  text-align: center;
+}
+
+footer div {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+  margin-top: 30px;
+  background: #f4f3ee;
+}
+
+.container {
+  margin-bottom: 120px;
+  max-width: 95% !important;
+}
+
+.card,
+.card-header,
+.card-body,
+.card-footer {
+  border-radius: 10px !important;
+}
+
+.col {
+  text-align: center;
+}
+
+.special__pinkbo--whitebg {
+  border: 3px solid #c32c72 !important;
+  background: #ffffff;
+}
+
+.special__whitebo--pinkbg {
+  border: 3px solid #ffffff !important;
+  background: #c32c72;
+}
+
+@media screen and (min-width: 1092px) {
+  footer {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .card {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-collapse {
+    margin-bottom: 35px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
